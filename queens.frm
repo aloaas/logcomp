@@ -1,0 +1,1 @@
+#(\bigwedge_{1\leqi\leqn}(exactlyone(x_{i,j}:1\leqj\leqn)))\&(\bigwedge_{1\leqk\leqn}(atmostone(x_{i,i-k+1}:k\leqi\leqn)))\&(\bigwedge_{1\leqk\leqn}(atmostone(x_{i,k+i-1}:1\leqi\leqn-k+1)))\&(\bigwedge_{1\leqk\leqn}(atmostone(x_{i,n-k-i+2}:1\leqi\leqn-k+1)))\&(\bigwedge_{1\leqk\leqn}(atmostone(x_{i,n-i+k}:k\leqi\leqn)))\&(\bigwedge_{1\leqi\leqn}(exactlyone(x_{j,i}:1\leqj\leqn)))#
