@@ -1,0 +1,8 @@
+$$f_{1} \& f_{2} \& f_{3}  \& f_{4} \& f_{5} \& f_{6} $$
+
+$$f_{1}=\bigwedge \limits_{1\leq i\leq n}(exactlyone(x_{i,j} : 1\leq j\leq n))$$
+$$f_{2}= \bigwedge \limits_{1\leq k\leq n}(atmostone(x_{i, i-k+1} :k\leq i\leq n))$$
+$$f_{3}= \bigwedge \limits_{1\leq k\leq n} (atmostone(x_{i, k+i-1} : 1\leq i\leq n-k+1))$$
+$$f_{4}= \bigwedge \limits_{1\leq k\leq n} (atmostone(x_{i, n-k-i+2} : 1\leq i\leq n-k+1))$$
+$$f_{5}= \bigwedge \limits_{1\leq k\leq n} (atmostone(x_{i, n-i+k}: k\leq i\leq n))$$
+$$f_{6}=\bigwedge \limits_{1\leq i\leq n}(exactlyone(x_{j,i} : 1\leq j\leq n))$$
