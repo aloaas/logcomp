@@ -1,0 +1,1 @@
+and(and(exactlyone(x1,x2),exactlyone(x3,x4),exactlyone(x5,x6),exactlyone(x7,x8)),and(and(not(and(x7,x5)),not(and(x7,x3)),not(and(x5,x7)),not(and(x3,x7))),and(not(and(x8,x6)),not(and(x8,x4)),not(and(x6,x8)),not(and(x4,x8)))));
